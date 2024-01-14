@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,body{
+   width: 100%;
+   height: 100%;
+   font-family: 'Inter', sans-serif;
+}
+
+.section2{
+   min-height: 80vh;
+   width: 100%;
+   background-color: #000;
+   padding: 2vw 4vw;
+}
+
+.section-title{
+   color: #fff;
+   background: linear-gradient(90deg, #1044CE,#000);
+   width: 15vw;
+   font-size: 12px;
+   font-weight: 500;
+   padding: 5px 20px;
+}
+
+.card-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1vw 2vw;
+}
+
+.card{
+   width: 22vw;
+   height: 16vw;
+   background-color: #111111;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: start;
+   padding: 1vw;
+   border-radius: 12px;
+}
+
+.card-img{
+   width: 20vw;
+   height: 10vw;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 8px;
+}
+
+.card-details{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1vw 1.5vw;
+}
+
+.card-title{
+   font-size: 12px;
+   font-weight: 500;
+   color: #fff;
+}
+
+.card-description{
+   font-size: 10px;
+   font-weight: 600;
+   color: #626262;
+}
+
+.company-logo{
+   width: 3vw;
+}
